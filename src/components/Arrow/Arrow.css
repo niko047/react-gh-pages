@@ -1,0 +1,8 @@
+.Arrow {
+    width: 30%;
+    margin: 0 auto 200px auto;
+    height: 60px;
+    background-color: rgb(8,141,165);
+    clip-path: polygon(0 0, 2% 10px, 50% 100%, 98% 10px, 100% 0, 50% 50px, 0 0)
+    
+}

@@ -1,0 +1,41 @@
+.Homepage {
+    height: 800px;
+}
+
+.HomepageColored {
+    background-color: rgb(8,141,165);
+    height: inherit;
+    clip-path: ellipse(80% 60% at 0 0);
+}
+
+.FirstLine {
+    color: rgb(0,255,255);
+    font-size: 5rem;
+    position: absolute;
+    top: 20%;
+    z-index: 10;
+    right: 55%;
+    margin: 0
+}
+
+.SecondLine {
+    position: absolute;
+    margin: 0;
+    top: 45%;
+    left: 47%;
+    font-size: 5rem;
+    color: rgb(8,141,165);
+    z-index: 10;
+    mix-blend-mode: color-dodge
+}
+
+.ThirdLine {
+    position: absolute;
+    margin:0;
+    top: 70%;
+    left: 55%;
+    color: rgb(8,141,165);
+    z-index: 10;
+    font-size: 5rem
+
+}

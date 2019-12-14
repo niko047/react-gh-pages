@@ -1,0 +1,20 @@
+.NavBar {
+    width: 65%;
+    margin-left: 4%;
+    padding-top: 10px;
+}
+
+.NavBar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.NavBar a {
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    text-decoration: none;
+}

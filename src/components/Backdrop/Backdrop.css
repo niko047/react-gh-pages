@@ -1,0 +1,29 @@
+.Backdrop {
+    width:100%;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.5s ease-out;
+}
+
+.Obscuring {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 13;
+}
+
+.DeObscuring {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ObBackground {
+    animation: Ob 0.001ms forwards;
+}
+
+@keyframes Ob {
+    100% {
+        z-index:  -1;
+        position: fixed;
+        display: none;
+    }
+}

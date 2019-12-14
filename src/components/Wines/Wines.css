@@ -1,0 +1,17 @@
+.Wines {
+    margin-bottom: 200px
+}
+
+.Wines h2 {
+    margin-top: 150px;
+    margin-bottom: 70px;
+    font-size: 3rem;
+    color: rgb(8,141,165);
+
+}
+
+.Wines p {
+    width: 60%;
+    margin:  auto;
+    line-height: 30px
+}

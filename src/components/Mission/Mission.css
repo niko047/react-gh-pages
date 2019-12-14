@@ -1,0 +1,28 @@
+.Mission {
+    margin-bottom: 300px;
+    padding-top: 70px;
+    display: inline-block;
+}
+
+.Mission h3 {
+    font-size: 2.4rem;
+    color:rgb(8,141,165);
+    padding-top: 40px
+}
+
+.Mission p {
+    color: black;
+    padding-bottom: 50px;
+    width: 75%;
+    margin: 0 auto;
+    line-height: 30px;
+    margin-bottom: 50px
+}
+
+.MissionBox {
+    border: 20px solid rgb(8,141,165);
+    width: 75%;
+    margin: 0 auto;
+    clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
+    border-radius: 7%;
+}

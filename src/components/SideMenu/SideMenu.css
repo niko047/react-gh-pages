@@ -1,0 +1,35 @@
+.Drawer {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right:-250px;
+    background-color: rgb(8,141,165);
+    padding: 0;
+    margin: 0;
+    z-index: 14;
+    transition: 0.5s ease-out;
+}
+
+.Open {
+    transform: translateX(-100%)
+}
+
+.Closed {
+    transform: translateX(0)
+}
+
+.Drawer ul {
+    list-style: none;
+    padding: 0;
+    padding-top: 180px;
+}
+
+.Drawer ul li {
+    margin: auto;
+}
+
+.Drawer ul li a {
+    text-decoration: none;
+    color: white;
+}
